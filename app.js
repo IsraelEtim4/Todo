@@ -10,16 +10,16 @@
         todos = savedTodos;
       } else {
         todos = [{
-          title: 'Get groceries',
-          dueDate: '2021-10-04',
+          title: 'Play Piano',
+          dueDate: '2023-06-06',
           id: 'id1'
         }, {
-          title: 'Wash car',
-          dueDate: '2021-02-03',
+          title: 'Practice Bass Guitar',
+          dueDate: '2023-06-07',
           id: 'id2'
         }, {
-          title: 'Make dinner',
-          dueDate: '2021-03-04',
+          title: 'Play Violin',
+          dueDate: '2023-06-08',
           id: 'id3'
         }];
       }
