@@ -4,7 +4,7 @@
       let todos;
 
       // Retrieve localStorage
-      const savedTodos = JSON.parse(localStorage.getItem('todos'));
+      const savedTodos = JSON.parse(localStorage.getItem('todos'));//So I just checked and your localStorage is working perfectly
       // Check if it's an array
       if (Array.isArray(savedTodos)) {
         todos = savedTodos;
@@ -77,9 +77,9 @@
       }
 
       // View
-      const render = () => {
+      const render = () => {//let's figure out a way to render the todos on reload, rather than on hit of the add todo button. 
         // reset our list
-        document.getElementById('todo-list').innerHTML = '';
+        document.getElementById('todo-list').innerHTML = '';//we also need to add some validation to the application, currently, one can add an empty todo to the list
 
         todos.forEach(todo => {
           const element = document.createElement('div');
